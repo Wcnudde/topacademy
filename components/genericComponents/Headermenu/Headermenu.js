@@ -41,10 +41,10 @@ export default class Headermenu extends Component {
 			<nav {...storyblokEditable(this.props.blok)} className={css["main-header__expanded-nav"]}>
 				<ul className={[css["main-header__expanded-nav-list"]].join("\n")} onClick={this.closeExpandedNavDropdown.bind(this)}>
 					<li className={css["main-header__expanded-nav-item--home"]} key="mainlogo">
-						<a href="/">
-							<div className={css["main-header__nav-home-container"]}>
-								<img src="/images/logo/logowithtext.svg" alt="logo" className={css["main-header__nav-home-logo"]} />
-								<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+					<a href="/">
+						<div className={css["main-header__nav-home-container"]}>
+							<img src="/images/logo/logowithtext3.png" alt="logo" className={css["main-header__nav-home-logo"]} />
+							<img src="/images/logo/logo3.png" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
 							</div>
 						</a>
 					</li>
@@ -80,11 +80,11 @@ export default class Headermenu extends Component {
 			<>
 				<header {...storyblokEditable(this.props.blok)} className={css["main-header"]}>
 					<nav className={css["main-header__nav"]}>
-						<nav className={css["main-header__nav-home"]}>
-							<a href="/">
-								<div className={css["main-header__nav-home-container"]}>
-									<img src="/images/logo/logowithtext.svg" alt="logo" className={css["main-header__nav-home-logo"]} />
-									<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+					<nav className={css["main-header__nav-home"]}>
+						<a href="/">
+							<div className={css["main-header__nav-home-container"]}>
+								<img src="/images/logo/logowithtext3.png" alt="logo" className={css["main-header__nav-home-logo"]} />
+								<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
 								</div>
 							</a>
 						</nav>

@@ -40,6 +40,10 @@
       background-color: $color-green-light;
     }
 
+    &--dark-green {
+      background-color: $color-green-dark;
+    }
+
     &--blue {
       background-color: $color-blue-light;
     }
@@ -109,6 +113,17 @@
         @extend .highlighted-content__large-text--highlighted-green;
         margin-bottom: 0;
         @include larger-text-font($color-green-normal);
+      }
+    }
+
+    &--highlighted-dark-green {
+      @extend .highlighted-content__large-text;
+      @include huge-text-font($color-green-dark);
+
+      &--with-navigator {
+        @extend .highlighted-content__large-text--highlighted-dark-green;
+        margin-bottom: 0;
+        @include larger-text-font($color-green-dark);
       }
     }
 

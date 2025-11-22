@@ -30,6 +30,11 @@
     background-color: $color-green-very-light;
   }
 
+  &--dark-green {
+    @extend .hero;
+    background-color: $color-green-dark;
+  }
+
   &--grey {
     @extend .hero;
     background-color: $color-grey-very-light;
@@ -131,6 +136,11 @@
       &--green {
         @extend .hero__title--highlighted;
         color: $color-green-normal;
+      }
+
+      &--dark-green {
+        @extend .hero__title--highlighted;
+        color: $color-green-dark;
       }
 
       &--grey {
