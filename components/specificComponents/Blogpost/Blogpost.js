@@ -20,6 +20,11 @@ export default class Blogpost extends Component {
 					<div className={css["blogpostitemcontent"]}>
 						{RichTextToHTML({ document: this.props.blok.description })}
 					</div>
+					{this.props.blok.author && (
+						<div className={css["blogpostauthor"]}>
+							<span className={css["blogpostauthortext"]}>By: {this.props.blok.author.content.firstname} {this.props.blok.author.content.lastname}</span>
+						</div>
+					)}
 				</div>
 			</>
 		);

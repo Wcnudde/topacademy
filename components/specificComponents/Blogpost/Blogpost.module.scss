@@ -101,6 +101,18 @@
   color: $color-grey-normal;
 }
 
+.blogpostauthor {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid $color-grey-very-light;
+}
+
+.blogpostauthortext {
+  font-size: 14px;
+  color: $color-grey-light;
+  font-style: italic;
+}
+
 
 
 @media only screen and (min-width: 500px) {
